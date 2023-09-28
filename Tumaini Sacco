@@ -1,0 +1,30 @@
+#Registration of a new user to our Sacco
+# User must identify himself or herself by full names, national ID number. They get an account number and have to start with an deposit of 5,000
+
+struct user
+{
+  char name[100];
+  float accountBalance;
+  float deposit;
+  float withdrawal;
+  int accountNumber;
+  int id;
+}
+
+# To set the console cursor position on screen
+
+void gotoxy (int x, int y)
+{
+  cord.X = x;
+  cord.Y = y;
+  SetConsoleCursorPosition
+  ( 
+     GetStdHandle (STD_OUTPUT_HANDLE), 
+   cord);
+}
+
+FILE *fp,*ft,
+
+
+
+
